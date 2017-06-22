@@ -1,0 +1,16 @@
+Test on a diatomic molecule perturbation (transformation of C-H into H-H ) 
+I am going to compute a partition coefficient in this way:
+
+- relative free energy of hydration simulations
+- relative free energy of solvation in cyclohexane
+
+from there I can compute a logP
+
+- absolute free energy of hydration 
+- absolute free energy of solvation in cyclohexane
+
+
+by considering absolute and relative I should detect if the Jacobian factor
+disappear or somehow remains
+
+In order to cancel an "effect" of momenta, HH and CH molecules have the same masses
