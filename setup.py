@@ -60,10 +60,22 @@ def nocutoff_constraint():
 
     for run in runs:
         for ph in phase:
+            relCHout = os.path.join(relCH,run,ph,"output")
             os.makedirs(os.path.join(relCH,run,ph,"output"))
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (relCHout)
+            os.system(cmd)
             os.makedirs(os.path.join(relHH,run,ph,"output"))
+            relHHout = os.path.join(relHH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (relHHout)
+            os.system(cmd)
             os.makedirs(os.path.join(absCH,run,ph,"output"))
+            absCHout = os.path.join(absCH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (absCHout)
+            os.system(cmd)
             os.makedirs(os.path.join(absHH,run,ph,"output"))
+            absHHout = os.path.join(absHH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (absHHout)
+            os.system(cmd)
     #TODO maybe gather all this below in a unique function like "copy_inputfiles"
     #now copy all the files
     #inputfiles/constraint/CH~HH/cyclohexane/absolute/noconstraints/
@@ -121,10 +133,22 @@ def cutoff_constraint():
 
     for run in runs:
         for ph in phase:
+            relCHout = os.path.join(relCH,run,ph,"output")
             os.makedirs(os.path.join(relCH,run,ph,"output"))
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (relCHout)
+            os.system(cmd)
             os.makedirs(os.path.join(relHH,run,ph,"output"))
+            relHHout = os.path.join(relHH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (relHHout)
+            os.system(cmd)
             os.makedirs(os.path.join(absCH,run,ph,"output"))
+            absCHout = os.path.join(absCH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (absCHout)
+            os.system(cmd)
             os.makedirs(os.path.join(absHH,run,ph,"output"))
+            absHHout = os.path.join(absHH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (absHHout)
+            os.system(cmd)
     #TODO maybe gather all this below in a unique function like "copy_inputfiles"
     #now copy all the files
     #inputfiles/constraint/CH~HH/cyclohexane/absolute/noconstraints/
@@ -180,10 +204,22 @@ def softcore():
 
     for run in runs:
         for ph in phase:
+            relCHout = os.path.join(relCH,run,ph,"output")
             os.makedirs(os.path.join(relCH,run,ph,"output"))
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (relCHout)
+            os.system(cmd)
             os.makedirs(os.path.join(relHH,run,ph,"output"))
+            relHHout = os.path.join(relHH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (relHHout)
+            os.system(cmd)
             os.makedirs(os.path.join(absCH,run,ph,"output"))
+            absCHout = os.path.join(absCH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (absCHout)
+            os.system(cmd)
             os.makedirs(os.path.join(absHH,run,ph,"output"))
+            absHHout = os.path.join(absHH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (absHHout)
+            os.system(cmd)
     #TODO maybe gather all this below in a unique function like "copy_inputfiles"
     #now copy all the files
     #inputfiles/constraint/CH~HH/cyclohexane/absolute/noconstraints/
@@ -238,10 +274,22 @@ def softcore():
 
     for run in runs:
         for ph in phase:
+            relCHout = os.path.join(relCH,run,ph,"output")
             os.makedirs(os.path.join(relCH,run,ph,"output"))
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (relCHout)
+            os.system(cmd)
             os.makedirs(os.path.join(relHH,run,ph,"output"))
+            relHHout = os.path.join(relHH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (relHHout)
+            os.system(cmd)
             os.makedirs(os.path.join(absCH,run,ph,"output"))
+            absCHout = os.path.join(absCH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (absCHout)
+            os.system(cmd)
             os.makedirs(os.path.join(absHH,run,ph,"output"))
+            absHHout = os.path.join(absHH,run,ph,"output")
+            cmd = "cp -r inputfiles/analysis_toolkit/* %s/." % (absHHout)
+            os.system(cmd)
     #TODO maybe gather all this below in a unique function like "copy_inputfiles"
     #now copy all the files
     #inputfiles/constraint/CH~HH/cyclohexane/absolute/noconstraints/
